@@ -1,0 +1,15 @@
+nrel_graph_union
+=> nrel_main_idtf:
+	[объединение графов*]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[graph union*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[Объединение графов — операция над графами, в результате которой получается граф, множества вершин и рёбер которого являются объединениями множеств вершин и рёбер исходных графов.]
+	(* <- lang_ru;; *);
+=> nrel_idtf:
+	[Graph union is an operation on graphs that results in a graph whose sets of vertices and edges are unions of sets of vertices and edges of the original graphs.]
+	(* <- lang_en;; *);
+	
+<- sc_node_norole_relation;;
