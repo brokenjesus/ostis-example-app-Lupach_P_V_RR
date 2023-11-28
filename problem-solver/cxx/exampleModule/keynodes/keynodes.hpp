@@ -27,10 +27,16 @@ public:
 
   SC_PROPERTY(Keynode("question_find_isomorphic_structures"), ForceCreate)
   static ScAddr question_find_isomorphic_structures;
+  
+  SC_PROPERTY(Keynode("question_graph_union_processing"), ForceCreate)
+  static ScAddr question_graph_union_processing;
 
   SC_PROPERTY(Keynode("nrel_search_result"), ForceCreate)
   static ScAddr nrel_search_result;
-
+  
+  SC_PROPERTY(Keynode("graph"), ForceCreate)
+  static ScAddr graph;
+  
   SC_PROPERTY(Keynode("empty_set"), ForceCreate)
   static ScAddr empty_set;
 };

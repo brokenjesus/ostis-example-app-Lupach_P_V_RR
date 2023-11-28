@@ -11,7 +11,9 @@ namespace exampleModule
 ScAddr Keynodes::question_find_subdividing;
 ScAddr Keynodes::nrel_subdividing;
 ScAddr Keynodes::question_find_isomorphic_structures;
+ScAddr Keynodes::question_graph_union_processing;
 ScAddr Keynodes::nrel_search_result;
+ScAddr Keynodes::graph;
 ScAddr Keynodes::empty_set;
 
 }  // namespace exampleModule
