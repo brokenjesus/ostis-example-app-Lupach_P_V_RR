@@ -338,7 +338,7 @@ SC_AGENT_IMPLEMENTATION(GraphUnionAgent)
 
     rrel_arcs = ms_context->HelperResolveSystemIdtf("rrel_arcs");
     rrel_nodes = ms_context->HelperResolveSystemIdtf("rrel_nodes");
-    nrel_union = ms_context->HelperResolveSystemIdtf("nrel_union", ScType::NodeConstRole);
+    nrel_union = ms_context->HelperResolveSystemIdtf("nrel_graph_union", ScType::NodeConstNoRole);
 
 
     ScIterator3Ptr graphsIterator = ms_context->Iterator3(
